@@ -1,8 +1,7 @@
 .nav1{
-	font-size: 15px;
-  	background: none;
-		padding: 10PX;
-		padding-left: 15px;
+	font-size:20px;
+  	background-color:#283593	!important ;
+		padding: 20px;
 }
 
 .B1{
@@ -30,7 +29,7 @@
 	text-align: center;
 }
 .modal-header, h4, .close {
-      background-color: #2f5563;
+      background-color: #3f51b5;
       color:white !important;
       text-align: center;
       font-size: 30px;
@@ -54,4 +53,13 @@
 .C3{
 	background-image: url("g1.jpg");
 	color:black;
+}
+.C1{
+	color: white;
+}
+.Srch1{
+	border-radius: 2px;
+}
+.carousel-item{
+	max-height: 400px;
 }
