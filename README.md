@@ -30,5 +30,5 @@ git push -u origin master
 1. If your repository has the header `this repository is behind original repository by 3 commits`
 2. do this
 ```
-git pull https://github.com/IEEE-VIT/techloop-ml-plus master
+git pull https://github.com/IEEE-VIT/techloop-w-plus master
 ```
