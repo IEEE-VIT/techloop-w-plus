@@ -1,0 +1,77 @@
+.b1,.b2,.b3,.b4,.b5,.b6,.b7{
+  margin-left: 35px;
+  border-color: white;
+  border-width: 2px;
+  background: none;
+  color: white;
+  font-family: Impact;
+  font-size: 30px;
+}
+.b1:hover,.b2:hover,.b3:hover,.b4:hover,.b5:hover{
+  cursor: pointer;
+  border-width: 3px;
+  border-color: red;
+  color:red;
+  transition:0.8s;
+}
+.nav1{
+  background-color: black;
+}
+.i1,.i2,.i3{
+  padding: 30px;
+}
+
+.C3{
+  font-family:impact ;
+  font-size: 60px;
+  color: yellow;
+}
+.b8,.b9{
+  font-family: impact;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#particles-js canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}

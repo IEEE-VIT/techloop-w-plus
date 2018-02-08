@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>GameON</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+ <script type="text/javascript" src="particles.js"></script>
+
+<link rel="stylesheet" href="style2.css">
+</head>
+
+
+<body  style="background-color:red">
+
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#"><br><br><br><br>-Both teams get five minutes to hide their flags. Once the flags are hidden, the game begins. <br><br>
+  	 -In order to win the game, you must capture the other team's flag and bring it back to your own territory. <br><br>
+  	 -But if an enemy team member shoots you while you're standing on their part of the field, you loose a life. <br><br>
+  	 -You have got 3 lives only.<br><br>
+  	 -Time limit:30 minutes<br><br>
+  	 -Capture the maximum number of flags to win.</a>
+
+</div>
+
+
+  <nav class="navbar-default navbar-toggleable-md navbar-inverse nav1">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav navbar-right mr-auto">
+    <li class="nav-item active"><a class="nav-link"><button class="btn b1" type="button"><span onclick="msg()">START</span></button></a></li>
+    <li class="nav-item"><a class="nav-link" href="#"><button class="btn b1" type="button"><span onclick="msg()">LOAD</span></button></a></li>
+    <li class="nav-item"><a class="nav-link" href="#"><button class="btn b2" type="button"><span onclick="openNav()">RULES</span></button></a></li>
+    <li class="nav-item"><a class="nav-link" href="#"><button class="btn b3" type="button"><span onclick="msg()">DASHBOARD</span></button></a></li>
+    <li class="nav-item"><a class="nav-link" href="#"><button class="btn b4" type="button">LEADERBOARD</button></a></li>
+    <li class="nav-item"><a class="nav-link" href="#"><button class="btn b5" type="button">CONTACT</button></a></li>
+    <li class="nav-item"><a class="nav-link" href="#"><button class="btn b6" type="button">TEAM</button></a></li>
+    <li class="nav-item"><a class="nav-link" href="#"><button class="btn b7" type="button">JOIN US</button></a></li>
+
+    </ul>
+  </div>
+</nav>
+<div class="container-fluid" id="particles-js">
+<div class="container-fluid" align="middle">
+  <div class="row">
+    <div class="col-sm-3 i1"><img src="skull.png" class="img-responsive" style="width:200px;height:200px;" ></div>
+    <div class="col-sm-6 i2"><img src="img1.jpg " class="img-responsive" ></div>
+    <div class="col-sm-3 i3"><img src="skull.png" class="img-responsive" style="width:200px;height:200px;" ></div>
+  </div>
+</div>
+
+
+<div class="row">
+    <div class="col-sm-2 i4" ><img class="img-responsive" src="r1.png" style="width:300px;height:300px"></div>
+    <div class="col-sm-2"><img class="img-responsive" src="red1.gif_c200" style="width:250px;height:250px;"></div>
+    <div class="col-sm-3 C3" align="middle"><p id="p1"></p>
+      <br><h5>Choose Team</h5>
+    </div>
+  	<div class="col-sm-2"><img src="blue.gif" style="width:300px;height:300px;"></div>
+    <div class="col-sm-2 i6" align="left"><img src="b1.png" class="img-responsive" style="width:300px;height:300px;" ></div>
+  </div>
+</div>
+
+
+
+
+
+
+<embed src="technotommy_energizeinstrumental.mp3" autostart="true" loop="true"
+      width="2" height="0">
+
+
+
+<script>
+var i = 0;
+var txt = 'Wanna lose ?';
+var speed =500;
+
+function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("p1").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+function openNav(){
+  document.getElementById("mySidenav").style.width="100%";
+  document.getElementById("mySidenav").style.backgroundColor="rgba(0,0,0,0.9)";
+}
+function closeNav(){
+  document.getElementById("mySidenav").style.width="0";
+  document.getElementById("mySidenav").style.backgroundColor="red";
+}
+function msg(){
+  window.alert("Game has not been developed yet!");
+}
+
+particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+typeWriter();
+
+
+</script>
+</body>
+</html>
