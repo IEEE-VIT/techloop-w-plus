@@ -1,0 +1,54 @@
+<html>
+<head>
+  <title>Login</title>
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+  	function do_login() {
+      	var email = $("#emailid").val();
+      	var pass = $("#password").val();
+      	$("#message").removeClass('shake_effect');  
+      	if (email != "" && pass != "") {
+        $.ajax({
+          type: 'post',
+          url: 'do_login.php',
+          data: {
+            do_login: "do_login",
+            email: email,
+            password: pass
+          },
+          success: function(response) {
+            var msg = "";
+            if (response == "success") {
+              window.location.href = "login.php";
+            } else {
+              msg = "Invalid username and password!";
+            }
+            $("#message").html(msg);
+            $("#message").addClass('shake_effect')
+          }
+        });
+      }else {
+        var masg = "Please Fill All The Details";
+        $("#message").html(masg);
+      }
+      return false;
+    }
+  </script>
+</head>
+
+<body>
+    <div id="login_form">
+      <h1>LOGIN FORM</h1>
+      <div id="message1">Username:admin | Password:admin to login.</div>
+      <div id="message"></div>
+      <form method="post" action="do_login.php" onsubmit="return do_login();">
+        	<input type="text" name="emailid" id="emailid" placeholder="Enter Email">
+        	<br>
+        	<input type="password" name="password" id="password" placeholder="*******">
+        	<br>
+        	<input type="submit" name="login" value="Login" id="login_button"> 
+    	</form>
+    </div>
+</body>
+</html>

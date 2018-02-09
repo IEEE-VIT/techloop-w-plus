@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Bebas';
+  src: url('../Task 2/css/BebasNeue.otf')  format('opentype');
+}
+h1{
+    font-family: 'Montserrat','Open Sans', sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    margin-bottom:0px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase; 
+}
+body{
+    background: linear-gradient(216deg, #5ce5d3, #1ef483);
+    font-family: 'Montserrat','Open Sans', sans-serif;
+    height: 100%; 
+    background-attachment: fixed;
+}
+#uimg{
+    width: inherit;
+}
+#login_form{
+    position: relative;
+    width: 400px;
+    margin: 80px auto;
+    padding: 20px 40px 40px;
+    text-align: center;
+    background: #fff;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size:1em;
+}
+input:focus {
+    border: 2px solid #555;
+}
+#login_button {
+    background-color: #e7e7e7;
+    color: black;
+}
+.shake_effect
+{
+ animation: shake 0.8s ;
+}
+@keyframes shake 
+{
+ 10%, 90% 
+ {
+  transform: translate3d(-1px, 0, 0);
+ }
+  
+ 20%, 80% 
+ {
+  transform: translate3d(2px, 0, 0);
+ }
+
+ 30%, 50%, 70% 
+ {
+  transform: translate3d(-4px, 0, 0);
+ }
+
+ 40%, 60% 
+ {
+  transform: translate3d(4px, 0, 0);
+ }
+}
+#message1{
+    padding: 15px 15px 0px 15px
+}
+#message{
+    margin: 15px;
+}

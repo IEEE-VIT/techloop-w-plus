@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'Bebas';
+  src: url('BebasNeue.otf')  format('opentype');
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("bg.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("img_parallax2.jpg");
+  min-height: 400px;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+h1{
+    color:#fff;
+    font-family: 'Montserrat','Open Sans', sans-serif;
+    text-shadow: 1px 1px 6px #000000;
+    text-align: center;
+    margin-top: 150px;
+}
+.headingtext{
+    font-size: 6em;
+    margin-left:150px;
+    margin-top:150px;
+    text-align: inherit;
+}
+.headtext{
+    font-size:3em;
+    margin-left:160px;
+    margin-top:30px;
+    text-align: inherit;
+}
+h2{
+    color:#fff;
+    font-family: 'Bebas','Open Sans', sans-serif;
+    text-shadow: 1px 1px 6px #000000;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+h3 {
+  font-family: 'Bebas','Open Sans', sans-serif;
+  letter-spacing: 5px;
+  color: #111;
+  font-size: 4.5em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+h4{
+    color:#fff;
+    font-family: 'Bebas','Open Sans', sans-serif;
+    text-shadow: 1px 1px 6px #000000;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.fa{
+  padding: 30px;
+  color:#39baa6;
+}
+.textdiv{
+  color:#111;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+.textdivm{
+  color:#111;
+  background-color:white;
+  text-align:center;
+  padding:50px 20px;
+  text-align: justify;
+}
+.foliotext{
+    color:#fff;
+    font-family: 'BebasNeue','Open Sans', sans-serif;
+    text-shadow: 1px 1px 6px #000000;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    margin-left: 175px;
+    font-size: 1.25em;
+}
+.foliotext:hover{
+    color:#ddd;
+}
+.foliotextm{
+    color:#fff;
+    font-family: 'BebasNeue','Open Sans', sans-serif;
+    text-shadow: 1px 1px 6px #000000;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    margin-top: 5000px;
+}
+.foliotextm:hover{
+    color:#ddd;
+}
+@media only screen and (max-device-width: 1200px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+    h1{
+      font-size: 4.5em;
+    }
+    h2{
+      font-size: 2.25em;
+    }
+
+}
