@@ -1,0 +1,21 @@
+.surface{
+  background-color: #7B1FA2 !important;
+}
+.text-surface{
+color:white !important;
+}
+nav{
+  margin-bottom:20px;
+}
+img{
+  width: 40%;
+  height: auto;
+}
+.C1{
+  background-image:url("../../../b1.jpg");
+  width:40%;
+  height:auto;
+}
+.text-align-right{
+  text-align: right;
+}
