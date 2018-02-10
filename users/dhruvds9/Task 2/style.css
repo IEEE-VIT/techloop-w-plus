@@ -1,0 +1,27 @@
+.surface {
+    background-color: darkred;
+    color: limegreen;
+}
+
+.blacknife {
+    background-image: url("Background.png");
+    background-size: 100%;
+    
+}
+
+.smooth {
+    color: limegreen;
+}
+
+.align {
+    text-align: center;
+}
+
+.font {
+    font-family: 'Bloodthirsty';
+}
+
+.font-color {
+    color: limegreen;
+}
+
