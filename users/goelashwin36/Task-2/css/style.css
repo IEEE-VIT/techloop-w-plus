@@ -1,0 +1,53 @@
+
+.B1{
+  color: white;
+  background-image: url("../img/b1.jpg");
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+body {
+   background-image: url("../img/b1.jpg");
+   color: white;
+}
+.heading{
+  font-size: 40px;
+  font-weight: bold;
+  color: #88ff32;
+  font-family: sans-serif;
+
+}
+.heading1{
+  font-size: 35px;
+  font-weight: bold;
+  color: #88ff32;
+  font-family: sans-serif;
+
+}
+.contact{
+  font-size: 40px;
+  font-family: monospace;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.gallery{
+    margin: 10px;
+    border: 5px solid #fff;
+    float: left;
+    width: 360px;
+    height: 260px;
+    margin-left: 110px;
+    margin-top: 50px;
+
+}
+p{
+  font-size: 25px;
+}
+.l{
+  margin-left: 40px;
+  font-size: 25px;
+}
