@@ -1,0 +1,138 @@
+.surface{
+    background-color:#ffff !important;
+}
+.text-suraface{
+    background-color:#0D0C0C !important;
+}
+.image { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+ }
+ 
+ h2 { 
+    position: absolute; 
+    top: 20px; 
+    left: 0; 
+    width: 100%; 
+ }
+ h19 { 
+  position: absolute; 
+  font-weight: 1000;
+  top: 200px; 
+  left: 200px; 
+  width: 100%; 
+}
+.btn-outline-success {
+  color: #28a745;
+  background-color: transparent;
+  background-image: none;
+  border-color: #28a745;
+}
+ @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+ @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+ 
+ body {
+     background: #fff;
+     font-family: 'Roboto', sans-serif;
+     color:#333;
+     line-height: 22px;	
+ }
+ h1, h2, h3, h4, h5, h6 {
+     font-family: 'Roboto Condensed', sans-serif;
+     font-weight: 400;
+     color:#111;
+     margin-top:5px;
+     margin-bottom:5px;
+ }
+ h1, h2, h3 {
+     text-transform:uppercase;
+ }
+ 
+ input.upload {
+     position: absolute;
+     top: 0;
+     right: 0;
+     margin: 0;
+     padding: 0;
+     font-size: 12px;
+     cursor: pointer;
+     opacity: 1;
+     filter: alpha(opacity=1);    
+ }
+ 
+ .form-inline .form-group{
+     margin-left: 0;
+     margin-right: 0;
+ }
+ .control-label {
+     color:#333333;
+ }
+ * {box-sizing: border-box}
+ 
+ /* Full-width input fields */
+   input[type=text], input[type=password] {
+   width: 100%;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   display: inline-block;
+   border: none;
+   background: #f1f1f1;
+ }
+ 
+ input[type=text]:focus, input[type=password]:focus {
+   background-color: #ddd;
+   outline: none;
+ }
+ 
+ hr {
+   border: 1px solid #f1f1f1;
+   margin-bottom: 25px;
+ }
+ 
+ /* Set a style for all buttons */
+ button {
+   background-color: #4CAF50;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   opacity: 0.9;
+ }
+ 
+ button:hover {
+   opacity:1;
+ }
+ 
+ /* Extra styles for the cancel button */
+ .cancelbtn {
+   padding: 14px 20px;
+   background-color: #f44336;
+ }
+ 
+ /* Float cancel and signup buttons and add an equal width */
+ .cancelbtn, .signupbtn {
+   float: left;
+   width: 50%;
+ }
+ 
+ /* Add padding to container elements */
+ .container {
+   padding: 16px;
+ }
+ 
+ /* Clear floats */
+ .clearfix::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+ 
+ /* Change styles for cancel button and signup button on extra small screens */
+ @media screen and (max-width: 300px) {
+   .cancelbtn, .signupbtn {
+     width: 100%;
+   }
+ }
+ 
