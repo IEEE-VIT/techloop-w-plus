@@ -1,0 +1,34 @@
+#nav{
+    background-color: #000000;
+    color: white;
+}
+
+h1{
+    align-self: center;
+}
+
+.options{
+    padding: 10px;
+    color: black;
+}
+
+body{
+    background-color: #9E9E9E;
+}
+
+#submit{
+    width: 100%;
+    height: auto;
+}
+
+button{
+    width: 100%;
+    align-self: center;
+    align-content: center;
+    background-color: darkgreen;
+    color: white;
+}
+
+#summary{
+    text-align: center;
+}
