@@ -7,6 +7,11 @@ h1{
     align-self: center;
 }
 
+.card-header{
+    text-align: center;
+    color: aliceblue;
+}
+
 .options{
     padding: 10px;
     color: black;
