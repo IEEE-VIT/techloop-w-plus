@@ -27,3 +27,8 @@ body{
     background-color: rgba(0, 255, 16, 0.60);
     margin: 20px 50px 20px 50px;
 }
+#p1{
+  background-color: white;
+  font-size: 30px;
+  text-align: center;
+}
