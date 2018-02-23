@@ -1,0 +1,116 @@
+html body{
+    height: 100%;
+    font-family: 'Muli',sans-serif;
+}
+.heading{
+    padding:2vh;
+    font-size:5vw;
+    margin:3vh;
+    margin-bottom: 0;
+    text-align: left;
+}
+.heading2{
+    padding:2vh;
+    font-size:2vw;
+    margin:3vh;
+    margin-top:0;
+}
+.qno{
+    font-size:2vw;
+    text-align: left;
+}
+.question{
+    color:#eee;
+    font-size: 28px;
+}
+.containerr{
+    background: #222;
+    display: block;
+    position: relative;
+    margin:auto;
+    height: auto;
+    width: 55vw;
+    padding: 20px;
+    padding-left: 2vw;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+ul {
+    list-style: none;
+}
+li {
+    font-size: 2em;
+}
+input[type='radio']:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    top:5px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    top:5px;
+    position: relative;
+    background-color: #ff2266;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type=radio] {
+    display: hidden;
+    border: 0px;
+    width: 20px;
+    height: 2em;    
+}
+.btnholder{
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: left;
+}
+.nextButton {
+    border-radius: 6px;
+    text-align: center;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dddddd+0,eeeeee+100 */
+background: #dddddd; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #dddddd 0%, #eeeeee 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #dddddd 0%,#eeeeee 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #dddddd 0%,#eeeeee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#eeeeee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    border-width:0px;
+    padding: 10px 20px;
+    color:#222;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.question {
+    font-size: 2em;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.choiceList {
+    color: #eee;
+    font-size: 15px;
+}
+.result {
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+    background-color: linen;
+    margin: auto;
+    text-align: center;
+
+}
