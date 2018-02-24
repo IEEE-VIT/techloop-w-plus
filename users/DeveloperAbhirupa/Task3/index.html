@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>GameON</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Comfortaa|Great+Vibes" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:900" rel="stylesheet">
+<script type="text/javascript" src="particles.js"></script>
+<link rel="stylesheet" href="stylesheet1.css">
+</head>
+
+
+
+
+<body background="img/pic1a.jpg">
+
+
+<div class="container-fluid" id="particles-js">
+<div class="d3" id="d3" align="center"></div>
+<div id="date" class="align-items-centre container-fluid" align="center"><strong>10</strong></div><br>
+<div class="container-fluid d2" align="middle">' If quizzes are quizzical what are tests?'</div>
+<div class="container-fluid d4" align="middle"> -sayquotable.com</div>
+</div>
+
+
+
+
+<script>
+
+
+
+var countDownTime = 10;
+var ID=setInterval(function(){
+    countDownTime--;
+    document.getElementById("date").textContent = countDownTime;
+    if(countDownTime <= 0)
+    {    clearInterval(ID);
+         window.location='index2.html';
+    }
+    },1000);
+
+var i=0;
+var txt="Game begins in...";
+var speed=100;
+function type(){
+  if(i<txt.length){
+    document.getElementById('d3').innerHTML+=txt.charAt(i);
+    i++;
+    setTimeout(type,speed);
+  }
+}
+ type();
+
+
+
+
+particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+
+
+
+</script>
+</body>
+</html>
