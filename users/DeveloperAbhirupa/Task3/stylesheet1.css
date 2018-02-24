@@ -1,0 +1,123 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#date{
+  font-size: 200px;
+  color: black;
+  text-shadow: 2px 2px grey;
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  margin-top: 100px;
+}
+
+.sub{
+  background: white;
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Titillium Web', sans-serif;
+}
+.sub:hover{
+background: linear-gradient(white,grey);
+
+}
+#form{
+  font-size: 30px;
+}
+
+#particles-js canvas{
+    z-index: -1;
+    margin-top: -600px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.d2{
+  font-size: 50px;
+  color: black !important;
+  font-family: 'Great Vibes', cursive;
+  color: white;
+}
+
+.d3{
+  font-size: 100px;
+  color: black;
+  text-shadow: 2px 2px grey;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#s{
+  font-size: 40px;
+  color: black;
+  text-shadow: 2px 2px grey;
+  font-family: 'Amaranth', sans-serif;
+}
+
+.C1{
+  background-color: white;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 40px;
+  opacity: 0.6;
+  border-radius: 10px;
+  border-width: thick;
+  margin-top: 100px;
+}
+.C2{
+  background-color: white;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 30px;
+  opacity: 0.6;
+  border-radius: 10px;
+
+}
+.c1:hover{
+  box-shadow: 15px 15px 15px black;
+  transform: scale(1.05);
+  transition: 1s;
+}
+.ca,.cb{
+  font-family: 'Amaranth', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+@media all and (max-width: 500px)
+{
+  /* Adjust font size on phones*/
+  .C1 {
+    font-size: 25px;
+    margin: 3%;
+  }
+  #form{
+    font-size: 18px;
+  }
+  .d3{
+    font-size: 40px;
+  }
+  #date{
+    font-size: 90px;
+  }
+  .d2{
+    font-size: 30px;
+
+  }
+  .d4{
+    font-size: 15px;
+  }
+  #s{
+    font-size: 30px;
+  }
+  .sub{
+    font-size: 20px;
+  }
+}
