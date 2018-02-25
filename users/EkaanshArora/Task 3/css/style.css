@@ -1,12 +1,13 @@
 body {
-    height: 100%;
+    height: 100vh;
     margin: 0;
     background-image: linear-gradient(to top, #ffcbe7 0%, #f1d0a5 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 html body{
-    height: 100%;
+    height: 100vh;
     font-family: 'Muli',sans-serif;
 }
 .heading{
