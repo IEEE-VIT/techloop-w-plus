@@ -59,6 +59,8 @@ function displayCurrentQuestion() {
     var questionClass = $(document).find(".quizContainer > .question");
     var choiceList = $(document).find(".quizContainer > .choiceList");
     var numChoices = questions[currentQuestion].choices.length;
+    var qnotxt=currentQuestion+1;
+    $(document).find(".quizContainer > .qno").text('Q'+qnotxt);
     $(questionClass).text(question);
     $(choiceList).find("li").remove();
     var choice;
