@@ -1,21 +1,20 @@
 var count=0
 function add(){
-  var Q1 = document.getElementsByName('Q1').value;
-  var Q2 = document.getElementsByName('Q2').value;
-  var Q3 = document.getElementsByName('Q3').value;
-  var Q4 = document.getElementsByName('Q4').value;
-  var Q5 = document.getElementsByName('Q5').value;
-  console.log(Q1);
-  console.log(Q2);
-  if(Q1=='Correct')
+  var Q1 = document.getElementById('C1').checked;
+  var Q2 = document.getElementById('C2').checked;
+  var Q3 = document.getElementById('C3').checked;
+  var Q4 = document.getElementById('C4').checked;
+  var Q5 = document.getElementById('C5').checked;
+
+  if(Q1)
   count+=1;
-  if(Q2=='Correct')
+  if(Q2)
   count+=1;
-  if(Q3=='Correct')
+  if(Q3)
   count+=1;
-  if(Q4=='Correct')
+  if(Q4)
   count+=1;
-  if(Q5=='Correct')
+  if(Q5)
   count+=1;
 }
 function display(){
