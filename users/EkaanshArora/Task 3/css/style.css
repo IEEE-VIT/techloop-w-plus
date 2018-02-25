@@ -1,3 +1,10 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(to top, #ffcbe7 0%, #f1d0a5 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 html body{
     height: 100%;
     font-family: 'Muli',sans-serif;
