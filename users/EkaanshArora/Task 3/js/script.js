@@ -90,6 +90,7 @@ function displayScore() {
     //$(document).find(".quizContainer > .result").show();
     $(document).find(".quizContainer > .choiceList").hide();
     $(document).find(".quizContainer > .btnholder").hide();
+    $(document).find(".quizContainer > .qno").hide();
 }
 function hideScore() {
     $(document).find(".result").hide();
