@@ -1,0 +1,24 @@
+.size{
+    font-size: x-large;
+}
+
+.font{
+    font-family: Cabin Sketch;
+    font-size: large;
+}
+
+.funk{
+    background-color: black;
+}
+
+.text{
+    color: silver;
+}
+
+.border{
+    border: 2px solid silver;
+}
+
+.color2{
+    color: darkgray
+}
