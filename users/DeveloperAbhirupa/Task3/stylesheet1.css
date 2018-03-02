@@ -91,6 +91,10 @@ background: linear-gradient(white,grey);
   text-align: center;
 }
 
+.b1{
+    margin-left: 43%;
+}
+
 @media only screen
 and (max-device-width : 500px)
 {
@@ -104,7 +108,7 @@ and (max-device-width : 500px)
         font-size:70px;
     }
     #s{
-        font-size: 50px;
+        font-size: 70px;
         text-shadow: 2px 2px 2px grey;
     }
     #date{
@@ -122,6 +126,12 @@ and (max-device-width : 500px)
     #particles-js canvas{
         z-index: -1;
         margin-top:-1500px;
+    }
+    .b1{
+        margin-left: 40% !important;
+    }
+    .sub{
+        font-size: 60px;
     }
 
 }
